@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo2.css"> 
+    <link rel="shortcut icon" href="images.png" type="image/x-icon">  
+</head>
+<body>
+    <div class="container">
+        <div class="visor">
+            <input type="text" id="tela" disabled>
+        </div>
+        <div class="botoes1">
+            <div id="sete" onclick="sete()">7</div>
+            <div id="oito" onclick="oito()">8</div>
+            <div id="nove" onclick="nove()">9</div>
+            <div id="soma" onclick="soma()">+</div>
+        </div>
+        <div class="botoes2">
+            <div id="quatro" onclick="quatro()">4</div>
+            <div id="cinco" onclick="cinco()">5</div>
+            <div id="seis" onclick="seis()">6</div>
+            <div id="subtracao" onclick="subtracao()"> - </div>
+        </div>
+        <div class="botoes3">
+            <div id="um" onclick="um()">1</div>
+            <div id="dois" onclick="dois()">2</div>
+            <div id="tres" onclick="tres()">3</div>
+            <div id="multiplicacao" onclick="multiplicacao()">x</div>
+        </div>
+        <div class="botoes4">
+            <div id="zero" onclick="zero()">0</div>
+            <div id="ponto" onclick="ponto()">.</div>
+            <div id="igual" onclick="resposta()">=</div>
+            <div id="divisao" onclick="divisao()">/</div>
+        </div>
+        <div class="botoes5">
+            <div id="limpar" onclick="limpar()">LIMPAR</div>           
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
