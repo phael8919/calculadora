@@ -47,7 +47,7 @@ function resposta(){
     let resp = eval(document.getElementById('tela').value) 
     return document.getElementById('tela').value = resp.toFixed(2)    
 }
-function limpar(){
+function limparVisor(){
     return document.getElementById('tela').value =""    
 }
 
